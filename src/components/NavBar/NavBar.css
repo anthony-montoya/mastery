@@ -8,3 +8,9 @@
 #navbar_login {
     color: white;
 }
+
+#navbar_login button {
+    font-size: 2vh;
+    font-weight: bold;
+    color: red;
+}

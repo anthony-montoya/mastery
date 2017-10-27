@@ -7,10 +7,10 @@ class Home extends Component {
         return (
             <div className='page_container'>
                 <NavBar />
-                <div>
+                <div className='pokemon_container'>
                     <h1>Home Page</h1>
-                    </div>
                 </div>
+            </div>
         )
     }
 }

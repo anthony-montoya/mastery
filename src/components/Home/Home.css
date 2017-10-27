@@ -1,5 +1,19 @@
 .page_container {
     width: 100vw;
     height: 100vh;
-    background-color: lightseagreen;
+    background-image: url('https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-siege-bg.jpg');
+    background-size: cover;
+}
+
+.pokemon_container {
+    display: flex;
+    font-size: 1vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pokemon_container button {
+    display: flex;
+    flex-direction: column;
 }
