@@ -1,0 +1,10 @@
+.navbar_container {
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+#navbar_login {
+    color: white;
+}

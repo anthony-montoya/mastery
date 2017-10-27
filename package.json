@@ -1,0 +1,28 @@
+{
+  "name": "mastery",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dot": "^1.1.2",
+    "env": "0.0.2",
+    "express": "^4.16.2",
+    "massive": "^4.4.0",
+    "passport": "^0.4.0",
+    "passport-auth0": "^0.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14",
+    "redux": "^3.7.2",
+    "redux-promise-middleware": "^4.4.1",
+    "session": "^0.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
