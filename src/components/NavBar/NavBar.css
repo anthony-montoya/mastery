@@ -3,6 +3,13 @@
     width: 100%;
     background-color: black;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+
+.navbar_profile h1 {
+    margin-left: 2vw;
 }
 
 #navbar_login {
@@ -13,4 +20,5 @@
     font-size: 2vh;
     font-weight: bold;
     color: red;
+    margin-right: 2vw;
 }

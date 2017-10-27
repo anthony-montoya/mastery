@@ -1,28 +1,26 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
+import { connect } from 'react-redux';
+import { getUserInfo } from '../../Redux/reducer';
 
 class NavBar extends Component {
-    constructor() {
-        super();
-
-        this.state = {
-
-        }
+    componentDidMount() {
+        this.props.getUserInfo
     }
 
     render() {
         return (
             <div className='navbar_container'>
-                <div id='navbar_login'>
-                    <a href={process.env.REACT_APP_LOGIN}>
-                        <button>Login</button>
-                    </a>
-                </div>
                 <div className='navbar_profile'>
                     <Link to='/user-profile'>
                         <h1>Profile</h1>
                     </Link>
+                </div>
+                <div id='navbar_login'>
+                    <a href={process.env.REACT_APP_LOGIN}>
+                        <button>Login</button>
+                    </a>
                 </div>
             </div>
         )

@@ -1,19 +1,42 @@
 .page_container {
     width: 100vw;
     height: 100vh;
-    background-image: url('https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-siege-bg.jpg');
-    background-size: cover;
+    background-color: red;
 }
 
-.pokemon_container {
+.hero_container {
     display: flex;
-    font-size: 1vh;
+    width: 100vw;
+    height: 20vh;
     justify-content: center;
     align-items: center;
-    color: white;
+    background-color: lightseagreen;
 }
 
-.pokemon_container button {
+.content_container {
+    width: 100vw;
+    height: 80vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+}
+
+.content_grid {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login_box {
+    border: 1px solid white;
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_box > h1 {
+    color: green;
 }
