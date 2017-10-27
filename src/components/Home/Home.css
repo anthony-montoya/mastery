@@ -40,3 +40,13 @@
 .login_box > h1 {
     color: green;
 }
+
+.padding_box h1 {
+    border: 1px solid white;
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}

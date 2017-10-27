@@ -26,10 +26,10 @@ class Home extends Component {
                             </Link>
                         </div>
                         <div className='login_box'>
-                            <h1>box2</h1>
+                            <h1></h1>
                         </div>
-                        <div className='login_box'>
-                            <h1>box3</h1>
+                        <div className='padding_box'>
+                            <h1>Padding Box/Box-Sizing</h1>
                         </div>
                     </div>
                 </div>
