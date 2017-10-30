@@ -34,7 +34,7 @@ class Profile extends Component {
                                     <p>Email: {this.props.user[0].email} </p>
 
                                     <h1>Is props a match? {this.props.match.isExact.toString()}</h1>
-                                    <PropsComponent username={this.props.user[0].user_name} match={this.props.match} />
+                                    <PropsComponent username={this.props.name} match={this.props.match} />
                                 </div>
                             </div>
                         </div>
