@@ -21,8 +21,8 @@ class Home extends Component {
                 <div className='content_container'>
                     <div className='content_grid'>
                         <div className='login_box'>
-                            <Link to='/products'>
-                                <h1>Swag Shop</h1>
+                            <Link to='/chore-list'>
+                                <h1>Chore List</h1>
                             </Link>
                         </div>
                         <div className='login_box'>
