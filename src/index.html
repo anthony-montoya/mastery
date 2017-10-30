@@ -19,12 +19,6 @@
         <button onclick='alertFunction()'>Click me!</button>
     </div>
 
-    <script>
-        function alertFunction() {
-            alert('I have been clicked!');
-        }
-    </script>
-
     <section>
         <div class='float'>
             <h1>Here is a list of links</h1>
@@ -41,7 +35,9 @@
 
     <div class='float_right'>
         <h1>Video Element</h1>
-        <img src='https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif' alt=''>
+        <video width="320" height="240" controls>
+            <source src="../waterfall.mp4" type="video/mp4">
+        </video>
         <br />
         <h1>Audio Element</h1>
         <audio controls>
@@ -51,9 +47,18 @@
 
 </body>
 
+<script>
+    function alertFunction() {
+        alert('I have been clicked!');
+    }
+
+</script>
+
 </html>
 
 <!-- Doctype is a declaration for a web browser so it knows what markup language it is written and and can therefore render the page accordingly. -->
 <!-- Semantics basically adds meaning and clarity to the web page. Semantic markup conveys communication, it helps the web browser understand exactly what should be 
 happening. For example a <p> tag expresses that what is inside that tag is a paragraph. Semantics are important mainly due to the clarity it provides
-and its aid in communication with the browser and anyone else looking at the code, it is easier to understand what exactly is happening when using semantic tags. -->
+and its aid in communication with the browser and anyone else looking at the code, it is easier to understand what exactly is happening when using semantic tags.
+Best practices can include instead of making your sections in your website of only div tags, you can be more specific such as section tags, nav tags, footer tags
+and etc. To make the layout of the page more clear and readable rather than each of those being a div with different classnames. -->
