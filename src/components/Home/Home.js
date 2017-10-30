@@ -25,12 +25,6 @@ class Home extends Component {
                                 <h1>Chore List</h1>
                             </Link>
                         </div>
-                        <div className='login_box'>
-                            <h1></h1>
-                        </div>
-                        <div className='padding_box'>
-                            <h1>Padding Box/Box-Sizing</h1>
-                        </div>
                     </div>
                 </div>
             </div>

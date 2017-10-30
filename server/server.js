@@ -22,17 +22,6 @@ massive(process.env.CONNECTION_STRING)
         console.log('Could not connect..' + err)
     });
 
-//ENDPOINTS
-
-//GET
-
-//POST
-
-//PUT
-
-//DELETE
-
-//
 app.use(
     session({
         secret: process.env.SECRET,
