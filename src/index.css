@@ -4,10 +4,42 @@ body {
   font-family: sans-serif;
 }
 
-.float {
-  float: left;
+br + div {
+  color: red;
 }
 
-.float_right {
+.box1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.box2 {
+  width: 300px;
+  height: 100px;    
+  padding: 50px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.box3 {
+  width: 300px;
+  height: 100px;    
+  padding: 50px;
+  border: 1px solid green;
+  box-sizing: border-box;
   float: right;
 }
+
+.box4 {
+  width: 300px;
+  height: 100px;    
+  padding: 50px;
+  border: 1px solid yellow;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 5px #888888;
+  background-color: linear-gradient(to right, red , yellow);
+  text-shadow: 3px 2px lightgrey;
+}
+
