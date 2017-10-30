@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="DevMountain Mastery">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>Mastery</title>
+</head>
+
+<body>
+    <div>
+        <h2>This will run JavaScript using script tags!</h2>
+        <button onclick='alertFunction()'>Click me!</button>
+    </div>
+
+    <script>
+        function alertFunction() {
+            alert('I have been clicked!');
+        }
+    </script>
+
+    <section>
+        <div class='float'>
+            <h1>Here is a list of links</h1>
+            <ul>
+                <li><a href='https://www.google.com/'>This will link you to Google</a></li>
+                <br />
+                <li><a href='https://stackoverflow.com/'>This will link you to Stack Overflow</a></li>
+                <br />
+                <li><a href='https://twitter.com/?lang=en'>This will link you to Twitter</a></li>
+                <br />
+            </ul>
+        </div>
+    </section>
+
+    <div class='float_right'>
+        <h1>Video Element</h1>
+        <img src='https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif' alt=''>
+        <br />
+        <h1>Audio Element</h1>
+        <audio controls>
+            <source src="../CompStart.mp3" type="audio/mp3"> Your browser does not support the audio element.
+        </audio>
+    </div>
+
+</body>
+
+</html>
+
+<!-- Doctype is a declaration for a web browser so it knows what markup language it is written and and can therefore render the page accordingly. -->
+<!-- Semantics basically adds meaning and clarity to the web page. Semantic markup conveys communication, it helps the web browser understand exactly what should be 
+happening. For example a <p> tag expresses that what is inside that tag is a paragraph. Semantics are important mainly due to the clarity it provides
+and its aid in communication with the browser and anyone else looking at the code, it is easier to understand what exactly is happening when using semantic tags. -->
