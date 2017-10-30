@@ -10,11 +10,11 @@ class Profile extends Component {
     componentDidMount() {
         this.props.getUserInfo();
     }
-    //Component did mount is a lifecycle method that is ran once this component has been rendered. 
+    //Component did mount is a lifecycle method that is ran once this component has been mounted. 
     //Within this it can run any other functions needed to run upon mount of this component.
 
     //Component will recieve props is a lifecycle method that makes it easier to pass data in props from one component to another and can from there
-    //use that data sent down as props however you need to in that other component.
+    //use that data sent down as props however you need to in that other component and is ran when a component is going to receive any new props.
 
     render() {
         return (
