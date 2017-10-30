@@ -17,6 +17,7 @@ class Profile extends Component {
     //use that data sent down as props however you need to in that other component and is ran when a component is going to receive any new props.
 
     render() {
+        const { user_name } = this.props.user[0];
         return (
             <div>
                 <NavBar />
@@ -29,7 +30,7 @@ class Profile extends Component {
                                 <h1>Account Information:</h1>
                                 {this.props.user ? <img className='avatar' src={this.props.user[0].img} alt='' /> : null}
                                 <div>
-                                    <p>Username: {this.props.user[0].user_name} </p>
+                                    <p>Username: {user_name} </p>
                                     <p>Email: {this.props.user[0].email} </p>
 
                                     <h1>Is props a match? {this.props.match.isExact.toString()}</h1>
